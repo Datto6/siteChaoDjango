@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fisioterapia</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="main.js"></script>
+</head>
+<body>
+
+<div id="facaSidebar"> </div>
+
+<div class="main">
+  <h1 class="titulo">Consultório de Fisioterapia</h1>
+
+  <div class="sub-titulo">
+	<h2>Serviços oferecidos:</h2>
+	<div id="listas"></div>
+	<script>
+		servicos=["Pilates","Termoterapia","Ortopédica","Geriátrica"]
+		criaLista(servicos,document.getElementById("listas"))
+	</script>
+  </div>
+</div>
+
+</body>
+</html>
